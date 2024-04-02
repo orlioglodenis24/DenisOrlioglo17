@@ -19,7 +19,7 @@ class Person{
         if(name.length()>3&&name.length()<15){
             this.name=name;
         }else{
-            System.out.println("большое имя!исправте");
+            System.out.println("большое имя!исправьте");
         }
     }
     public void setAge(int age) {
@@ -52,9 +52,6 @@ class Person{
         setName(name);
         setAge(age);
         setHeight(height);
-    }
-    public int Jop(int x){
-        return x;
     }
 
 }
