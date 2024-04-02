@@ -53,6 +53,9 @@ class Person{
         setAge(age);
         setHeight(height);
     }
+    public int Jop(int x){
+        return x;
+    }
 
 }
 
