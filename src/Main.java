@@ -33,7 +33,7 @@ class Person{
         if(height>=120 &&height<=220){
             this.height=height;
         }else{
-            System.out.println("рост не коректный ");
+            System.out.println("рост не коректный,исправьте");
         }
     }
     public String getName() {
